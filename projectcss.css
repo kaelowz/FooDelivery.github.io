@@ -1,0 +1,354 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: limegreen;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial',serif;
+    font-size: 18px;
+
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    background-color: limegreen;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #333;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 20px;
+    
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+
+}
+
+a:hover {
+    background-color: limegreen;
+    color: black;
+    text-decoration: none;
+}
+
+div{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+}
+label{
+    text-align: center;
+}
+footer {
+    background-color: limegreen;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+.bckgimg{
+    background-image: url(background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-down{
+    position: relative;
+}
+.header-title{
+    font: 1em sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+.header-subtitle{
+    font-size: 75px;
+}
+.header-suptitle{
+    color: black;
+    font-family: 'Arial',serif;
+    font-size: 18px;
+}
+.header-suptitle:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: black;
+    top: 153px;
+    left: 15px;
+}
+.header-suptitle:before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: black;
+    top: 153px;
+    left: 325px;
+}
+.header-button{
+    background-color: limegreen;
+    padding: 14px 28px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.header-button:hover{
+    background-color: darkgreen;
+}
+.logo{
+    margin-right: 5px ;
+}
+
+
+
+.card-holder{
+    display: flex;
+    
+}
+.card1{
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    margin-right: 31px;
+    margin-left: 60px;
+    background-color: #fff;
+    margin-top: -70px;
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Arial',serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+.card-desc{
+    text-align: center;
+    padding: 10px 10px;
+    font-family: 'Arial',serif;
+    font-size: 20px;
+}
+
+.history{
+    margin-top: 166px;
+}
+.history-title{
+    font-family: 'Arial',serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 21px;
+    margin-left: 21px;
+
+}
+.history-desc{
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.history-number{
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.number-item{
+    margin-right: 30px;
+    font-size: 35px;
+    color: limegreen;
+}
+.number-item span{
+    display: block;
+    color: #000;
+}
+.history-images{
+    position: relative;
+}
+.history-holder{
+    display: flex;
+}
+.image1{
+    position: absolute;
+    z-index: 999;
+    top: 30px;
+    left: 60px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+}
+.image2{
+    position: absolute;
+    z-index: 500;
+    top: 100px;
+    left: 260px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+}
+.image3{
+    position: absolute;
+    z-index: 0;
+    top: 150px;
+    left: 10px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+}
+.guarantee{
+    background-image: url(zadniifon4.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 75px;
+    position: absolute;
+}
+.guarantee-title{
+    font-family: 'Arial',serif;
+    font-size: 54px;
+    font-weight: 400;
+    margin-top: 250px;
+}
+.guarantee-desc{
+    font-family: 'Arial',serif;
+    font-size: 24px;
+    font-weight: 400;
+    width: 33%; 
+    margin-left: 450px; 
+}
+.carousel-slide{
+    width: 33%;
+    position: relative;
+    top: 0px;
+    left: 450px;
+}
+.carousel-title{
+        font-family: 'Arial',serif;
+    font-size: 54px;
+    font-weight: 400;
+    margin-top: 800px;
+    margin-bottom: 50px;
+}
+.carousel-img{
+    display: flex;
+    position: absolute;
+}
+.carimg1{
+    margin-right: 850px;
+    margin-left: 100px;
+}
+.carimg3{
+    margin-right: 850px;
+    margin-left: 100px;
+}
+.video{
+    margin-top: 200px;
+    background-image: url(zadniifon.jpg);
+        height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video-title{
+    font-family: 'Arial',serif;
+    font-size: 54px;
+    font-weight: 400;
+    
+    margin-bottom: 20px;
+}
+.help-title{
+    font-family: 'Arial',serif;
+    font-size: 54px;
+    font-weight: 400;    
+}
+.about-us{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.about-us-title{
+     font-family: 'Arial',serif;
+    font-size: 54px;
+    font-weight: 400; 
+    margin-left: 40px; 
+    margin-top: 30px;  
+}
+.about-us-image{
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+.about-us-desc{
+     font-family: 'Arial',serif;
+    font-size: 24px;
+    font-weight: 400;    
+}
+.partner-title{
+    font-family: 'Arial',serif;
+    font-size: 54px;
+    font-weight: 400; 
+}
+.contact-us-title{
+    font-family: 'Arial',serif;
+    font-size: 56px;
+    font-weight: 400; 
+}
+.contact-us-desc{
+    font-family: 'Arial',serif;
+    font-size: 24px;
+    font-weight: 400;    
+}
+.contact-us-tg{
+    text-decoration: none;
+}
+.history-number1{
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-left: 460px;
+    margin-top: 40px;
+}
+.number-item1{
+    margin-right: 30px;
+    font-size: 35px;
+    color: limegreen;
+}
+.number-item1 span{
+    display: block;
+    color: #000;
